@@ -1,0 +1,116 @@
+nav{
+    position: fixed;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns:  20fr 20fr 30fr 20fr 20fr ;
+    gap: 10px;
+    background-color: pink;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.pad{
+    padding: 4px;
+    cursor: pointer;
+    font-size: larger;
+    
+}
+
+.pad:hover{
+    background-color: rgb(229, 127, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+body{
+    background-image: linear-gradient(
+        140deg
+        , red 10%, white 50%, #BFD641 75%); }
+
+.text{
+    background-image: url("covid.jpg");
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.end{
+    display: flex;
+    justify-content:center;
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 90%; 
+    
+    align-items: center;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    padding: 10px;
+}
+
+.box1{
+    width: 90%; 
+    
+    align-items: center;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    padding: 10px;
+}
+
+.table{
+    background-image: linear-gradient(
+        140deg
+        , #EADEDB 0%, #BC70A4 50%, #BFD641 75%);    border: 3px solid black;
+    width: 80%;
+    border-radius: 20px;
+}
+
+table{
+    margin: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr {
+    /* background-image: linear-gradient(to right, rgba(0, 128, 0, 0.75), rgb(0, 0, 128, 0.75)); */
+    background-image: linear-gradient(
+        140deg
+        , red 10%, white 50%, #BFD641 75%);  }
+
+.faqs{
+    border: 2px solid black;
+    margin: 20px ;
+    width: 80%;
+}
+
+footer{
+    background-color: brown;
+    font-size: xx-large;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#youthoob{
+    padding: 10px;
+}
